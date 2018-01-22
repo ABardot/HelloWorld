@@ -7,8 +7,8 @@ namespace HelloWorld
         private static void Main()
         {
             //Part one greetings statement
-            //string messageOne = "Hello World!";
-            //string messageTwo = "I am Spartacus";
+            string messageOne = "Hello World!";
+            string messageTwo = "I am Spartacus";
 
             //// Part two set initial Spartacus attributes
             //int ageOne = 35;
@@ -21,6 +21,78 @@ namespace HelloWorld
             ////bool isGodLikeTwo = false;
             ////char genderMale = 'M';
             ////char genderFemale = 'F';
+
+            //Homework
+            //Lisa is cooking muffins. The recipe calls for 7 cups of sugar.She has already put in 2 cups.How many more cups does she need to put in?
+            //At a restaurant, Mike and his three friends decided to divide the bill evenly.If each person paid $13 then what was the total bill ?
+            //How many packages of diapers can you buy with $40 if one package costs $8 ?
+            //Last Friday Trevon had $29.Over the weekend he received some money for cleaning the attic.He now has $41.How much money did he receive ?
+            //Last week Julia ran 30 miles more than Pranav.Julia ran 47 miles.How many miles did Pranav run ?
+            //How many boxes of envelopes can you buy with $12 if one box costs $3 ?
+            //After paying $5.12 for a salad, Norachai has $27.10.How much money did he have before buying the salad ?
+            //int cup = 7 - 2;
+            //int bill = 4 * 13;
+            //int packageDiapers = 40 / 8;
+            //int money = 29 + 41;
+            //int ran = 47 - 30;
+            //int envelopes = 12 / 3;
+            //double salad = 5.12 + 27.10;
+            //Console.WriteLine("Lisa needs {0} cups of sugar.\r\nThe total bill was ${1}.\r\nYou can buy {2} packages of diapers.\r\nTrevon received ${3}.\r\nPranav ran {4} more miles than Julia.\r\nYou can buy {5} envelope with $12 \r\nThe total bill was ${6}. ", cup, bill, packageDiapers, money, ran, envelopes, salad);
+
+            ////Lisa is cooking muffins. The recipe calls for 7 cups of sugar. She has already put in 2 cups. How many more cups does she need to put in?
+            //int result = 7 - 2;
+            //Console.WriteLine("Lisa needs {0} cups of sugar.", result);
+
+            ////At a restaurant, Mike and his three friends decided to divide the bill evenly. If each person paid $13 then what was the total bill?
+            //result = 4 * 13;
+            //Console.WriteLine("The total bill was ${0}.", result);
+
+            ////How many packages of diapers can you buy with $40 if one package costs $8?
+            //result = 40 / 8;
+            //Console.WriteLine("You can buy {0} packages of diapers.", result);
+
+            ////Last Friday Trevon had $29. Over the weekend he received some money for cleaning the attic. He now has $41. How much money did he receive?
+            //result = 29 + 41;
+            //Console.WriteLine("Trevon received ${0}.", result);
+
+            ////Last week Julia ran 30 miles more than Pranav. Julia ran 47 miles. How many miles did Pranav run?
+            //result = 47 - 30;
+            //Console.WriteLine("Pranav ran {0} more miles than Julia.", result);
+
+            ////How many boxes of envelopes can you buy with $12 if one box costs $3?
+            //result = 12 / 3;
+            //Console.WriteLine("You can buy {0} envelope boxes with $12.", result);
+
+            ////After paying $5.12 for a salad, Norachai has $27.10.How much money did he have before buying the salad?
+            //double salad = 5.12 + 27.10;
+            //Console.WriteLine("The total bill was ${0}.", salad);
+
+            //double salad = 5.12;
+            //double moneyBefore = 27.10;
+            //double result = salad + moneyBefore;
+            //Console.WriteLine("The total bill was ${0}.", result);
+
+            //string myGreeting = "Hello";
+            //Console.WriteLine(myGreeting.ToUpper()); // prints "HELLO"
+            //Console.WriteLine(myGreeting.ToLower()); // prints "hello"
+            //Console.WriteLine(myGreeting); // prints "Hello"
+
+            //Console.WriteLine("Enter a color, please.");
+            //string response = Console.ReadLine();
+
+            //if (response.ToLower().Equals("red"))
+            //{
+            //    Console.WriteLine("Roses can be red. Also, lilies.");
+            //}
+
+            //Part ten string length examples
+            //int messOneLength = messageOne.Length;
+            //int messTwoLength = messageTwo.Length;
+
+            //Console.WriteLine("The length of messageOne is " + messageOne.Length);
+            //Console.WriteLine("The length of messageTwo is " + messageTwo.Length);
+            //Console.WriteLine("The length of messageOne is " + messOneLength);
+            //Console.WriteLine("The length of messageTwo is " + messTwoLength);
 
             //Console.WriteLine("I am {0} years old, and yes it's {1} I am god like.", ageOne, isGodLikeOne);
             //Console.WriteLine("I weigh around {0} pounds , and I am around {1} inches tall", weightOne, heightOne);
@@ -137,99 +209,58 @@ namespace HelloWorld
             //    Console.WriteLine("Sorry you are staying home.");
             //}
 
-            switch (job)
-            {
-                case "Infantry":
-                    Console.Write("You will carry a sword");
-                    break;
-
-                case "archers":
-                    Console.Write("You will carry a bow and arrow");
-                    break;
-
-                case "supply":
-                    Console.Write("You will carry pots and pans");
-                    break;
-
-                case "specialist":
-                    Console.Write("You will operate catapult");
-                    break;
-
-                default:
-                    Console.WriteLine("You will ride horseback");
-                    break;
-            }
-
-            //Lisa is cooking muffins. The recipe calls for 7 cups of sugar.She has already put in 2 cups.How many more cups does she need to put in?
-            //At a restaurant, Mike and his three friends decided to divide the bill evenly.If each person paid $13 then what was the total bill ?
-            //How many packages of diapers can you buy with $40 if one package costs $8 ?
-            //Last Friday Trevon had $29.Over the weekend he received some money for cleaning the attic.He now has $41.How much money did he receive ?
-            //Last week Julia ran 30 miles more than Pranav.Julia ran 47 miles.How many miles did Pranav run ?
-            //How many boxes of envelopes can you buy with $12 if one box costs $3 ?
-            //After paying $5.12 for a salad, Norachai has $27.10.How much money did he have before buying the salad ?
-            //int cup = 7 - 2;
-            //int bill = 4 * 13;
-            //int packageDiapers = 40 / 8;
-            //int money = 29 + 41;
-            //int ran = 47 - 30;
-            //int envelopes = 12 / 3;
-            //double salad = 5.12 + 27.10;
-            //Console.WriteLine("Lisa needs {0} cups of sugar.\r\nThe total bill was ${1}.\r\nYou can buy {2} packages of diapers.\r\nTrevon received ${3}.\r\nPranav ran {4} more miles than Julia.\r\nYou can buy {5} envelope with $12 \r\nThe total bill was ${6}. ", cup, bill, packageDiapers, money, ran, envelopes, salad);
-
-            ////Lisa is cooking muffins. The recipe calls for 7 cups of sugar. She has already put in 2 cups. How many more cups does she need to put in?
-            //int result = 7 - 2;
-            //Console.WriteLine("Lisa needs {0} cups of sugar.", result);
-
-            ////At a restaurant, Mike and his three friends decided to divide the bill evenly. If each person paid $13 then what was the total bill?
-            //result = 4 * 13;
-            //Console.WriteLine("The total bill was ${0}.", result);
-
-            ////How many packages of diapers can you buy with $40 if one package costs $8?
-            //result = 40 / 8;
-            //Console.WriteLine("You can buy {0} packages of diapers.", result);
-
-            ////Last Friday Trevon had $29. Over the weekend he received some money for cleaning the attic. He now has $41. How much money did he receive?
-            //result = 29 + 41;
-            //Console.WriteLine("Trevon received ${0}.", result);
-
-            ////Last week Julia ran 30 miles more than Pranav. Julia ran 47 miles. How many miles did Pranav run?
-            //result = 47 - 30;
-            //Console.WriteLine("Pranav ran {0} more miles than Julia.", result);
-
-            ////How many boxes of envelopes can you buy with $12 if one box costs $3?
-            //result = 12 / 3;
-            //Console.WriteLine("You can buy {0} envelope boxes with $12.", result);
-
-            ////After paying $5.12 for a salad, Norachai has $27.10.How much money did he have before buying the salad?
-            //double salad = 5.12 + 27.10;
-            //Console.WriteLine("The total bill was ${0}.", salad);
-
-            //double salad = 5.12;
-            //double moneyBefore = 27.10;
-            //double result = salad + moneyBefore;
-            //Console.WriteLine("The total bill was ${0}.", result);
-
-            //string myGreeting = "Hello";
-            //Console.WriteLine(myGreeting.ToUpper()); // prints "HELLO"
-            //Console.WriteLine(myGreeting.ToLower()); // prints "hello"
-            //Console.WriteLine(myGreeting); // prints "Hello"
-
-            //Console.WriteLine("Enter a color, please.");
-            //string response = Console.ReadLine();
-
-            //if (response.ToLower().Equals("red"))
+            //switch (job)
             //{
-            //    Console.WriteLine("Roses can be red. Also, lilies.");
+            //    case "Infantry":
+            //        Console.Write("You will carry a sword");
+            //        break;
+
+            //    case "archers":
+            //        Console.Write("You will carry a bow and arrow");
+            //        break;
+
+            //    case "supply":
+            //        Console.Write("You will carry pots and pans");
+            //        break;
+
+            //    case "specialist":
+            //        Console.Write("You will operate catapult");
+            //        break;
+
+            //    default:
+            //        Console.WriteLine("You will ride horseback");
+            //        break;
             //}
 
-            //Part ten string length examples
-            //int messOneLength = messageOne.Length;
-            //int messTwoLength = messageTwo.Length;
+            //Part fourteen Arrays
+            //string[] foodList = new string[5];
+            //foodList[0] = "Milk";
+            //foodList[1] = "Fruit";
+            //foodList[2] = "Meat";
+            //foodList[3] = "Wine";
+            //foodList[4] = "Bread";
+            ////Console.WriteLine("{0}, {1}, {2}, {3}, {4}", foodList[0], foodList[1], foodList[2], foodList[3], foodList[4]);
 
-            //Console.WriteLine("The length of messageOne is " + messageOne.Length);
-            //Console.WriteLine("The length of messageTwo is " + messageTwo.Length);
-            //Console.WriteLine("The length of messageOne is " + messOneLength);
-            //Console.WriteLine("The length of messageTwo is " + messTwoLength);
+            //int[] foodAmount = new int[5] { 1000, 100, 2000, 10000, 1500 };
+            ////Console.WriteLine(foodAmount[0] + ", " + foodAmount[1] + ", " + foodAmount[2] + ", " + foodAmount[3] + ", " + foodAmount[4] + ", ");
+
+            //Console.WriteLine(foodAmount[0] + ", " + foodList[0] + ", " + foodAmount[1] + ", " + foodList[1] + ", " + foodAmount[2] + ", " + foodList[2] + ", " + foodAmount[3] + ", " + foodList[3] + ", " + foodAmount[4] + ", " + foodList[4]);
+            //Console.WriteLine(foodList.Length);
+
+            //string[] elements = messageTwo.Split(' ');
+            //Console.WriteLine(elements[0]); // prints "I"
+            //Console.WriteLine(elements[1]); // prints "am"
+            //Console.WriteLine(elements[2]); // prints "Spartacus"
+
+            String myName = "Sue";
+            char[] letters = myName.ToCharArray();
+
+            Console.WriteLine("The first letter of my name is " + letters[0]);
+            Console.WriteLine("The second letter of my name is " + letters[1]);
+            Console.WriteLine("The third letter of my name is " + letters[2]);
+            Console.WriteLine(myName.Length);
+            Console.WriteLine("{0} {1} {2}", letters[0],  letters[1], letters[2]);
+
         }
     }
 }
