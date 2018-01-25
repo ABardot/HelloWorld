@@ -371,28 +371,46 @@ namespace HelloWorld
 
             //<----------------------------------------------------------------------------------------------------------------------->
             //Sixteen Method Calls
-            int ageOne = 35;
-            bool isGodLike = true;
-            isGodLikeOne = isGodLike(int age);
-            Console.WriteLine("To say our hero is god like is " + isGodLike);
-        }
+            //    bool isGodLikeOne = true;
+            //    bool isGodLikeTwo = false;
+            //    int ageTwo = 34;
+            //    int ageOne = 35;
+            //    isGodLikeOne = IsGodLike(ageOne);
+            //    isGodLikeTwo = IsGodLike(ageTwo);
+            //    Console.WriteLine("To say our hero is God like is " + isGodLikeOne);
+            //    Console.WriteLine("To say our hero is God like is " + isGodLikeTwo);
+            //} //Main method ==============================================================================>
 
-        private static bool isGodLike(int age);
+            //private static bool IsGodLike(int age)
+            //{
+            //    bool status;
+            //    if (age % 2 == 0)
+            //    {
+            //        status = false;
+            //    }
+            //    else
+            //    {
+            //        status = true;
+            //    } //Bool method
+            //    return status;
 
-            {
-             private bool status;
-            if (age % 2 == 0)
-                status = false;
-                }
+        //    string messageTwo = "I am Spartacus";
 
-                    else
-	                {
-                     status = true;
-	                }
+        //    bool isGodLikeOne = true;
 
-                        return status;
-                    }
-	
+        //    Console.WriteLine("To say our hero is God like is " + isGodLikeOne);
+        //    Console.WriteLine(Reverse(messageTwo));
+        //}
+
+        //private static int[] Reverse(int[] text)
+        //{
+        //    char[] cArray = text.ToCharArray();
+        //    string reverse = " ";
+        //    for (int i = cArray.Length - 1; i > -1; i--)
+        //    {
+        //        reverse += cArray[i];
+        //    }
+        //    return reverse;
         }
     }
 }
