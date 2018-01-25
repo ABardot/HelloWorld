@@ -233,36 +233,30 @@ namespace HelloWorld
             //}
 
             //Part fourteen Arrays
-            string[] foodList = new string[5];
-            foodList[0] = "Milk";
-            foodList[1] = "Fruit";
-            foodList[2] = "Meat";
-            foodList[3] = "Wine";
-            foodList[4] = "Bread";
+            //string[] foodList = new string[5];
+            //foodList[0] = "Milk";
+            //foodList[1] = "Fruit";
+            //foodList[2] = "Meat";
+            //foodList[3] = "Wine";
+            //foodList[4] = "Bread";
 
             //int[] foodAmount = new int[5] { 1000, 100, 2000, 10000, 1500 };
 
-
             ////Console.WriteLine("{0}, {1}, {2}, {3}, {4}", foodList[0], foodList[1], foodList[2], foodList[3], foodList[4]);
-
 
             //For loop example
             //Create a column with variable, length, result, conditional/bool value
-            int[] foodAmount = new int[5];   /*{ 1000, 100, 2000, 10000, 1500 };*/
-            foodAmount[0] = 1000;
-            foodAmount[1] = 100;
-            foodAmount[2] = 2000;
-            foodAmount[3] = 10000;
-            foodAmount[4] = 1500;
-            for (int i = 0; i < foodAmount.Length; i++)
-            {
-                Console.WriteLine(foodAmount[i]);
-                
-            }
+            //int[] foodAmount = new int[5];   /*{ 1000, 100, 2000, 10000, 1500 };*/
+            //foodAmount[0] = 1000;
+            //foodAmount[1] = 100;
+            //foodAmount[2] = 2000;
+            //foodAmount[3] = 10000;
+            //foodAmount[4] = 1500;
+            //for (int i = 0; i < foodAmount.Length; i++)
+            //{
+            //    Console.WriteLine(foodAmount[i]);
 
-            
-            
-
+            //}
 
             //Console.WriteLine(foodAmount[0] + ", " + foodAmount[1] + ", " + foodAmount[2] + ", " + foodAmount[3] + ", " + foodAmount[4] + ", ");
 
@@ -370,15 +364,35 @@ namespace HelloWorld
             //    action = Console.ReadLine();
             //} while (action != "exit");
 
-            //For loop example 
+            //For loop example
             //A for loop will run for a specific # of iterations, it will count until it reaches the exit conditions
             // A for loop has four part
             //set up, test expression, increment, body
 
+            //<----------------------------------------------------------------------------------------------------------------------->
+            //Sixteen Method Calls
+            int ageOne = 35;
+            bool isGodLike = true;
+            isGodLikeOne = isGodLike(int age);
+            Console.WriteLine("To say our hero is god like is " + isGodLike);
+        }
 
+        private static bool isGodLike(int age);
 
+            {
+             private bool status;
+            if (age % 2 == 0)
+                status = false;
+                }
 
+                    else
+	                {
+                     status = true;
+	                }
 
+                        return status;
+                    }
+	
         }
     }
 }
